@@ -1,0 +1,17 @@
+
+.container {
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: 1px;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.header-style{
+    color: rgb(0, 255, 195);
+}
+
+    .header-style{
+        color: rgb(18, 9, 9);
+}

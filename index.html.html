@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi página web con Bootstrap 5</title>
+    
+    <link href="./style.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Mi Página Web</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-4">
+      <h1>Bienvenido a Gestion de Centro de Datos</h1>
+      <p>
+        La de centro de datos se refiere a la administración y supervisión de
+        todas las actividades relacionadas con un centro de datos, que es una
+        instalación física que alberga servidores, equipos de red y otros
+        componentes de infraestructura necesarios para el procesamiento,
+        almacenamiento y distribución de gestión datos en una organización.
+      </p>
+      <p>
+        La gestión de un centro de datos implica una variedad de tareas y
+        responsabilidades. Esto puede incluir la planificación y diseño del
+        centro de datos, la adquisición de hardware y software, la instalación y
+        configuración de equipos, el monitoreo y mantenimiento de la
+        infraestructura, la gestión de la seguridad y el cumplimiento de normas,
+        la administración de la energía y la refrigeración, la implementación de
+        políticas de respaldo y recuperación de datos, la optimización del
+        rendimiento y la capacidad, y la gestión de problemas e incidentes.
+      </p>
+      <p>
+        Además de las tareas operativas, la gestión de centro de datos también
+        implica la gestión de recursos humanos, la coordinación con otros
+        departamentos de la organización, la elaboración de presupuestos y la
+        planificación estratégica. El objetivo principal es garantizar que el
+        centro de datos funcione de manera eficiente, confiable y segura, y que
+        cumpla con los requisitos y objetivos de la organización en términos de
+        disponibilidad, rendimiento y seguridad de los datos.
+      </p>
+      <h2>Los Diferentes Tipos de Tier</h2>
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide pointer-event"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class=""
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+            class=""
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+            class="active"
+            aria-current="true"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="3"
+            aria-label="Slide 3"
+            class=""
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="./Tier I.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Tier I</h5>
+              <p>
+                Aqui podemos ver lo que es un pequeño modelo de lo que son las
+                parte de los tier.
+              </p>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./Tier II.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Tier II</h5>
+              <p>
+                Aqui podemos ver lo que es un pequeño modelo de lo que son las
+                parte de los tier.
+              </p>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+          <div class="carousel-item active">
+            <img src="./Tier III.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Tier III</h5>
+              <p>
+                Aqui podemos ver lo que es un pequeño modelo de lo que son las
+                parte de los tier.
+              </p>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./Tier IV.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Tier IV</h5>
+              <p>
+                Aqui podemos ver lo que es un pequeño modelo de lo que son las
+                parte de los tier.
+              </p>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+        <footer>
+          <section>
+            <article>
+              <div class="container mt-4">
+                <h1>Clases de Tier</h1>
+                <h3>Tier 1: Basico</h3>
+                <p>
+                  Un diseño Tier 1 admite interrupciones planeadas y no
+                  planeadas. Disponen de sistemas de aire acondicionado y
+                  también de distribución de energía, pero no suelen tener:
+                  suelo técnico, UPS o generados eléctricos.
+                </p>
+                <p>
+                  Este sistema puede tener varios puntos de fallo, sobre todo
+                  cuando la carga es máxima en situaciones críticas. También
+                  puede tener errores de operación o fallos en su
+                  infraestructura lo que provoca la interrupción de sus data
+                  centers.
+                </p>
+                <p>
+                  Además la infraestructura del data center deberá estar fuera
+                  de servicio una vez al año para su mantenimiento o reparación.
+                </p>
+                <p>
+                  La tasa máxima de disponibilidad del CPD es 99.671% del
+                  tiempo.
+                </p>
+
+                <div class="container mt-4">
+                  <h3>Tier II: Componentes Redundantes</h3>
+                  <p>
+                    Los Data Centers con componentes redundantes son ligeramente
+                    menos susceptibles a interrupciones, tanto planeadas como
+                    las no planeadas. Estos CPDs cuentan con suelo técnico, UPS
+                    y generadores eléctricos, pero está conectado a una sola
+                    línea de distribución eléctrica. Su diseño es (N+1), lo que
+                    significa que existe al menos un duplicado de cada
+                    componente de la infraestructura. La carga máxima de los
+                    sistemas en situaciones críticas es del 100%. El
+                    mantenimiento en la línea de distribución eléctrica o en
+                    otros componentes de la infraestructura, pueden causar una
+                    interrupción del servicio.
+                  </p>
+                  <p>
+                    La tasa de disponibilidad máxima del CPD es 99.741% del
+                    tiempo.
+                  </p>
+
+                  <div class="container mt-4">
+                    <h3>Tier III: Mantenimiento Concurrente</h3>
+                    <p>
+                      Las capacidades de su Data Center Tier III, nos permiten
+                      realizar cualquier actividad planeada sobre cualquier
+                      componente sin tener ninguna interrupción en la operación.
+                    </p>
+                    <p>Las actividades planeadas incluyen:</p>
+                    <p>1-Mantenimiento preventivo</p>
+                    <p>2-Raparación y reemplazamiento de componentes</p>
+                    <p>3-Agregar o eliminar los componentes</p>
+                    <p>4-Realizar pruebas en sistemas o subsitemas.</p>
+                    <p>
+                      Si queremos este diseño data center, debe existir la
+                      capacidad necesaria y una doble línea de distribución para
+                      los componentes. De esta forma es posible realizar pruebas
+                      mientras la otra línea atiende la totalidad de la carga.
+                    </p>
+                    <p>
+                      En el caso de actividades no planeadas como los errores de
+                      una operación o fallos espontáneos en la infraestructura
+                      pueden causar fallos en su centro de procesamiento de
+                      datos. La carga máxima para situaciones críticas es de
+                      90%.
+                    </p>
+                    <p>
+                      La mayoría de los Data Centers Tier III son diseñados para
+                      actualizarse a Tier IV, este cambio se produce cuando
+                      aumentan los requerimientos de la empresa.
+                    </p>
+                    <p>
+                      La tasa maxima de disponibilidad del CPD es 99.982% del
+                      tiempo.
+                    </p>
+
+                    <div class="container mt-4">
+                      <h3>Tier IV: Tolerante a Fallos</h3>
+                      <p>
+                        Un diseño en data center con este nivel proveerá
+                        capacidad para realizar cualquier tipo de actividad sin
+                        tener interrupciones en el servicio. Además tiene
+                        tolerancia a fallos que le permiten a la infraestructura
+                        de su data center a continuar operando ante una
+                        actividad no planeada.
+                      </p>
+                      <p>
+                        Para ello este sistema requiere dos líneas de
+                        distribución simultáneamente activas, típicamente en una
+                        configuración System+System. La carga máxima en
+                        situación crítica es del 90%. Persiste un nivel de
+                        exposición a fallos ya que es avisada por una alarma de
+                        incendio.
+                      </p>
+                      <p>
+                        La tasa de disponibilidad máxima del CPD es 99.995% del
+                        tiempo.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+          <input type="datetime-local" />
+          <h4 class="header-style">
+            Create by: Angel J. Cruz Vasquez/21-SISN-1-069
+          </h4>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
